@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-class ExerciseClass
+class FizzBuzzClass
 {
     static int? ParseUserInput(String userInput)
     {
@@ -15,7 +15,7 @@ class ExerciseClass
 
     static String[] keywords = ["fizz", "buzz", "doom", "jong", "spow", "reng", "gaow", "pirt", "klek", "zdyn"];
 
-    static void Main(String[] args)
+    public void Start(String[] args)
     {
         String userInput = "";
         int userMax = 1;
